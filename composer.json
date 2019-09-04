@@ -1,0 +1,24 @@
+{
+    "name": "woodoocoder/laravel-media",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "D1maB",
+            "email": "dma19912012@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Woodoocoder\\LaravelMedia\\": "src"            
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Woodoocoder\\LaravelMedia\\MediaServiceProvider"
+            ]
+        }
+    }
+}
