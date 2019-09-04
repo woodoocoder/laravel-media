@@ -1,6 +1,6 @@
 <?php
 
-namespace Woodoocoder\LaravelMedia;
+namespace Woodoocoder\LaravelMedia\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
