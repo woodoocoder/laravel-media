@@ -13,14 +13,10 @@ class MediaServiceProvider extends ServiceProvider {
      * @return void
      */
     public function register() {
-        //$useDefaultRounes = config('woodoocoder.media.use_default_routes');
-
-
         Route::prefix('api/media')
             ->middleware('api')
             ->namespace('Woodoocoder\LaravelMedia')
             ->group(__DIR__ . '/routes/api.php');
-
     }
 
     /**
